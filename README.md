@@ -1,5 +1,7 @@
 # EasyFit
 
+![Image](https://github.com/user-attachments/assets/8ae9fb05-0ea4-47de-bf05-3b158d4b4c70)
+
 ### Admin Dashboard
 ![Image](https://github.com/user-attachments/assets/297776ee-4f96-44d7-b014-905f7d8ca045)
 
