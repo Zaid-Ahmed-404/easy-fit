@@ -1,4 +1,87 @@
-# EasyFit
+# Easy-Fit – Conference Management System
+
+**Easy-Fit** is a robust, scalable, and secure web-based **Conference Management System (CMS)** built with **Laravel**. It simplifies the entire lifecycle of organizing conferences – from user registration and paper submission to session scheduling, reviewing, and analytics – all powered by **AWS** infrastructure.
+
+---
+
+## Features
+
+### User Management
+- User registration and profile management (name, affiliation, contact info)
+- Role-based access control (RBAC):
+  - Author
+  - Super Chair
+  - Track Chair
+  - Reviewer
+  - Sub Reviewer
+
+### Paper Submission
+- Submit papers or abstracts via a submission portal
+- Upload documents securely to **AWS S3**
+- Track submission status in real-time
+
+### Review and Selection
+- Assign papers to reviewers/sub-reviewers
+- Scoring system with reviewer feedback
+- Automated paper selection based on review scores
+
+### Conference Schedule
+- Manage schedules for sessions, workshops, and events
+- Assign speakers and topics to time slots dynamically
+
+### Conference Analytics
+- Reports on:
+  - Attendee demographics
+  - Submission statistics
+  - Session popularity
+- Track registration and revenue performance
+
+### Communication and Notifications
+- Messaging system for organizers, speakers, and attendees
+- Automated notifications via **AWS SNS** and **AWS SES**
+
+### Accessibility and Inclusivity
+- Accessibility features for participants with special needs
+- Multi-language support for global events
+
+### Mobile Responsiveness
+- Responsive UI using **Laravel Blade** and **Bootstrap**
+
+---
+
+## Tech Stack
+
+### Frontend / UI
+- Laravel Blade Templates
+- Bootstrap CSS
+- Mobile-first responsive design
+
+### Authentication and Authorization
+- JWT-based API authentication
+- Role-based access (RBAC)
+
+### Database
+- MySQL with **Eloquent ORM**
+- Hosted on **AWS RDS**
+
+### DevOps and AWS Infrastructure
+- Containerization with **AWS ECR**
+- CI/CD pipeline using **AWS CodeBuild**
+- Deployed with **AWS ECS**
+- Secrets and credentials managed via **AWS Secrets Manager**
+- Fine-grained permissions using **AWS IAM**
+
+### Security
+- HTTPS enforced
+- Input sanitization and validation
+- Protection against XSS, CSRF, and SQL injection
+
+### Architecture and Scalability
+- Follows **Clean Architecture** principles
+- Optimized database queries and caching
+- Scalable for large conferences and multiple users
+
+### Images
 
 ![Image](https://github.com/user-attachments/assets/8ae9fb05-0ea4-47de-bf05-3b158d4b4c70)
 
